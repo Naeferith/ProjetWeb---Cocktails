@@ -61,6 +61,15 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
 			</div>
 		</section>
 		<?php
+		
+			if(isset($_GET["result"])) {
+				echo '<div class="form-group row">
+						<div class="col-lg-12 text-center">
+						  <a href="?view=extsearch" class="btn btn-primary">Retour</a>
+						</div>
+					</div>';
+			}
+			
 			if(valider("result", "GET")) {
 				echo '<div class="row">
 						<div class="col-lg-12 text-center">
@@ -104,6 +113,14 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
 					}
 					echo '</div>';
 				}
+			}
+		
+			if(isset($_GET["result"])) {
+				echo '<div class="form-group row">
+						<div class="col-lg-12 text-center">
+						  <a href="?view=extsearch" class="btn btn-primary">Retour</a>
+						</div>
+					</div>';
 			}
 		?>
 	</section>
