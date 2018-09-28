@@ -19,7 +19,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Rouanito Cocktails - Make your own cocktail</title>
+    <title>Rouanito Cocktails - Les meilleurs cocktails</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
