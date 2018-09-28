@@ -55,10 +55,6 @@ if (basename($_SERVER["PHP_SELF"]) != "index.php")
 		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-		<!-- Contact form JavaScript -->
-		<script src="js/jqBootstrapValidation.js"></script>
-		<script src="js/contact_me.js"></script>
-
 		<!-- Custom scripts for this template -->
 		<script src="js/agency.min.js"></script>
 		
